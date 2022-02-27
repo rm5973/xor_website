@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-
+import {Link} from 'react-scroll'
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -19,38 +19,39 @@ function Navbar() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
-                    href="#"
+                    
                     className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Home
+                    <Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link>
                   </a>
 
                   <a
-                    href="#"
+                    
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    About
+                    <Link  to="about" spy={true} smooth={true}>About</Link>
                   </a>
 
                   <a
-                    href="#"
+                    
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Projects
+                    <Link  to="projects" spy={true} smooth={true}>Projects</Link>
                   </a>
 
                   <a
-                    href="#"
+                    
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Certificates
+                  ><Link  to="certificates" spy={true} smooth={true}>
+                    Certificates</Link>
                   </a>
 
                   <a
-                    href="#"
+                    
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    ContactUs
+                    <Link  to="contactus" spy={true} smooth={true}>
+                    ContactUs</Link>
                   </a>
                 </div>
               </div>

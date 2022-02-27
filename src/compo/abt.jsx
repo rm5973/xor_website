@@ -2,13 +2,21 @@ import React from "react";
 export default function Abt() {
     return (
         <div>
-            <nav >
+
+            <div >
                 <div >
-                    <div>
-                        <h1 class="text-white text-center py-8"> A LITTLE ABOUT MYSELF </h1>
-                    </div>
+                    <div class="flex flex-col 
+                    items-center justify-center" >
+                        <div class="py-4">
+                            <h1 class="text-center border-2 w-28 border-black hover:border-[#3BECE1] text-white ">
+                                A LITTLE BIT
+                            </h1>
+                        </div>
+                        <h1 class="text-white italic font-Roboto text-3xl"> ABOUT  MYSELF </h1></div>
+
                 </div>
-            </nav>
+            </div>
+
         </div>
 
     )

@@ -10,7 +10,9 @@ function App() {
  
 </div>
 <div className=" bg-black   h-screen " id="about" ><Abt /></div>
-  <div className="bg-black h-screen" id="projects"> <Projects /></div>
+  <div className="bg-black h-screen" id="projects"> 
+  <Projects />
+  </div>
  
  </div>
 

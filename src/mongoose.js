@@ -5,3 +5,6 @@ app.post("/",(req,res)=>{
 
 
 })
+app.listen("8000",()=>{
+    console.log("app is listening at port 8000")
+})

@@ -24,10 +24,12 @@ export default function Contact() {
         <div class="">
             <div class=" mt-[125px] w-[215px] ml-[20.75rem]">
 
-                <form action="onclick" method="post" class="">
+                <form action="/" method="post" class="" >
                     <div class="pt-2  w-[50px] "><input type="text" name="name" placeholder='NAME' class="w-[215px]" /></div>
                     <div class="pt-2  "> <input type="email" name="emailid" placeholder='EMAIL' class="w-[215px]" /></div>
-                    <div class="pt-2  "><input type="text" name="message" placeholder='MESSAGE' class="w-[215px] h-[80px] text-center" /></div>
+                    <div class="pt-2  "><input type="text" name="message" placeholder='MESSAGE' class="w-[215px] h-[80px] text-center" />
+                   <div class="pt-2  flex"><button class="absolute left-[887px] w-[100px] h-[30px] text-center border-2 bg-white text-black" type="submit" >submit</button></div> 
+                    </div>
                 </form>
 
 

@@ -4,6 +4,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      
       height: {
         
         coustomh: '430px',

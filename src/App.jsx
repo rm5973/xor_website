@@ -9,9 +9,9 @@ function App() {
     <div id="home">   <Navbar />
  
 </div>
-<div className=" bg-black   h-screen " id="about" ><Abt /></div>
-<div className="bg-black h-screen" id="projects"><Projects /></div>
-<div className="bg-black h-screen" id="contactus"> <Contact /> </div> 
+<div className=" bg-black  " id="about" ><Abt /></div>
+<div className="bg-black " id="projects"><Projects /></div>
+<div className="bg-black " id="contactus"> <Contact /> </div> 
  </div>
 
  

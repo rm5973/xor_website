@@ -4,7 +4,7 @@ import Abt from "./compo/abt";
 import Navbar from "./compo/navbar";
 import Projects from "./compo/proj";
 import Contact from "./compo/constact";
-import Footer from "./compo/subscribe";
+import Footer from "./compo/footer";
 import Subscribe from "./compo/subscribe";
 function App() {
   return (<div> 
@@ -12,8 +12,8 @@ function App() {
 <div className=" bg-black  " id="about" ><Abt /></div>
 <div className="bg-black " id="projects"><Projects /></div>
 <div className="bg-black " id="contactus"> <Contact /> </div> 
- <div className="bg-black" id="footer"> <Subscribe/></div>
- 
+ <div className="bg-black" id="subscription"> <Subscribe/></div>
+ <div className="bg-black id=footer"> <Footer /></div>
  </div>
 
  

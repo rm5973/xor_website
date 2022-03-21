@@ -4,7 +4,7 @@ export default function Subscribe() {
        
     <div class="">
         <div class="">
-            <h2 class="text-center text-white" >Subscribe for our Newsletter</h2>
+            <h2 class="text-center text-white pt-2" >Subscribe for our Newsletter</h2>
             <p class="text-center text-[#7d8285]">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
         </div>
         <div class="flex flex-col justify-center items-center ">

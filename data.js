@@ -20,11 +20,12 @@ const loginSchema = new mongoose.Schema({
     
     });
     var us = mongoose.model( 'us',loginSchema)
-app.post("/register", async (req,res)=>{
+app.post("", async (req,res)=>{
 
  const user=new us(req.body)
  
-let result=await user.save();
+await user.save();
+console.log("data saved ")
 
 
 

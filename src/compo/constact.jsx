@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import PhoneContactimg1 from "../IMAGE/Contactus/PhoneContactimg1.jpg";
 
+
+
 export default function Contact() {
 
   return (
@@ -20,7 +22,7 @@ export default function Contact() {
         <div class="sm:inline-block sm:w-1/3  align-top p-3">
           <div class=" my-[15vw]">
             <div class=" ">
-              <form method="post" class=" ">
+              <form action=" " method="POST" >
 
                 <input
                   type="text"
@@ -50,8 +52,9 @@ export default function Contact() {
 
 
                 <button
+                  type="submit"
                   class=" mx-auto text-center border-2 bg-white text-black block mt-2"
-                  type="button"
+                  
                 >
                   submit
                 </button>

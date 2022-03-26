@@ -3,7 +3,7 @@ export default function Footer() {
         <div>
 
             <div class="pt-2">
-                <div class=" ml-32 flex  inline-block">
+                <div class=" ml-[5vw] flex  inline-block">
                     <div class="text-white ">
                         <h3>Services</h3>
                         <ul class="opacity-25">
@@ -20,9 +20,9 @@ export default function Footer() {
                             <li><a href="#">Careers</a></li>
                         </ul>
                     </div>
-                    <div class="   text-white ml-6 ">
-                        <h3 class="">Company Name</h3>
-                        <p class="opacity-25">Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    <div class="   text-white  ml-2">
+                        <h3 class="pt-1">Company Name</h3>
+                        <p class=" pt-1 opacity-25 text-[2vw]">Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
                     </div>
 
                 </div>
@@ -34,7 +34,7 @@ export default function Footer() {
                     </a><a href="#" class="inline-block"><i class="bi bi-instagram"></i></a>
                     </div>
                 
-                <p class="text-white text-center mt-2">Company Name © 2022</p>
+                <p class="text-white text-center mt-2 pb-2">Company Name © 2022</p>
             </div>
 
 

@@ -1,3 +1,9 @@
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face{
+    font-family: "cursive";
+    src:url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');}
